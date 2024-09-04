@@ -1,0 +1,15 @@
+pypdf
+langchain
+chromadb==0.4.15 # Vector storage
+pytest
+boto3
+easyocr
+pillow
+torch
+transformers
+langchain-community
+sentence_transformers
+accelerate
+langchain-chroma
+langchain-huggingface
+bitsandbytes

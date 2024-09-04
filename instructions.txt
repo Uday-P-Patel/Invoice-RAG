@@ -1,0 +1,15 @@
+1) open folder in vs code
+
+2) run : pip install -r requirements.txt
+
+3) to create a vector database from a folder run: python .\generate_vector_db.py "your/folder/path"
+
+4) to add files to the database run: 
+   to add from folder:   python .\add_to_vector_db.py "your/folder/path"
+   to add single file:   python .\add_to_vector_db.py "path/to/file" --single
+
+5) to run inference on the database:  python .\sequence_query.py
+
+6) after the model and database is loaded you can ask question
+
+7) to change model go to config.yaml and change model path parameter to the model of your choice
