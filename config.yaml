@@ -1,0 +1,16 @@
+model_path: "google/gemma-2-2b-it"
+# model_path: "microsoft/Phi-3-mini-128k-instruct"
+# model_path: "Qwen/Qwen2-1.5B-Instruct"
+# model_path: "google/flan-t5-large"
+embedding_model: "all-MiniLM-L6-v2"
+# embedding_model: "all-MiniLM-L12-v2"
+chunk_size: 500
+chunk_overlap: 50
+k_relevant_docs: 5
+max_new_tokens: 300
+hf_token: "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"
+use_ann: true
+max_input_tokens: 2048
+chroma_path: "chroma"
+database: 
+  type: "distributed_chroma"  # or Milvus, Pinecone, etc.
